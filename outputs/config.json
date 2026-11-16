@@ -1,0 +1,22 @@
+{
+  "mrnet_dir": "/Users/john/programming/thesis-cnn/data/MRNet-v1.0",
+  "kneemri_dir": "/Users/john/programming/thesis-cnn/data/kneemri",
+  "kneemri_npy_dir": "/Users/john/programming/thesis-cnn/data/kneemri_npy",
+  "smoke_dir": "/Users/john/programming/thesis-cnn/data/smoke_mrnet",
+  "outputs_dir": "/Users/john/programming/thesis-cnn/outputs",
+  "splits_dir": "/Users/john/programming/thesis-cnn/splits",
+  "plan": "A",
+  "smoke_test": false,
+  "seeds": [
+    0
+  ],
+  "n_tuning": 120,
+  "planb_folds": 5,
+  "planb_tune_frac": 0.15,
+  "max_epochs": 15,
+  "patience": 4,
+  "accum_exams": 8,
+  "batch_3d": 4,
+  "num_workers": 2,
+  "use_amp": true
+}

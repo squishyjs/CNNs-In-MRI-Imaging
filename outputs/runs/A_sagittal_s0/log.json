@@ -1,0 +1,133 @@
+{
+  "run_id": "A_sagittal_s0",
+  "model_id": "A",
+  "plane": "sagittal",
+  "seed": 0,
+  "hparams": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.5
+  },
+  "tasks": [
+    "abnormal",
+    "acl",
+    "meniscus"
+  ],
+  "n_params": 1082115,
+  "best_epoch": 7,
+  "epochs_run": 12,
+  "best_tuning_auc": 0.713863912797767,
+  "epoch_seconds_mean": 17.605837367921293,
+  "inference_seconds_per_exam": 0.09923764549118157,
+  "peak_memory_mb": 26.5472,
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 0.7901703533559743,
+      "tune_auc_mean": 0.6498712420864563,
+      "epoch_seconds": 22.571444917004555,
+      "tune_auc_abnormal": 0.7312864186463469,
+      "tune_auc_acl": 0.6247680890538033,
+      "tune_auc_meniscus": 0.5935592185592186
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.7664832419393086,
+      "tune_auc_mean": 0.6835310525920119,
+      "epoch_seconds": 17.262739041936584,
+      "tune_auc_abnormal": 0.7196324518153295,
+      "tune_auc_acl": 0.6006493506493507,
+      "tune_auc_meniscus": 0.7303113553113553
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7557902509918307,
+      "tune_auc_mean": 0.670933953230489,
+      "epoch_seconds": 17.573009875020944,
+      "tune_auc_abnormal": 0.7301658449125953,
+      "tune_auc_acl": 0.6110853432282004,
+      "tune_auc_meniscus": 0.6715506715506716
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7400389928923975,
+      "tune_auc_mean": 0.6988132163501953,
+      "epoch_seconds": 17.41242145805154,
+      "tune_auc_abnormal": 0.7288211564320933,
+      "tune_auc_acl": 0.6444805194805194,
+      "tune_auc_meniscus": 0.7231379731379731
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7359622130299559,
+      "tune_auc_mean": 0.7048053761330958,
+      "epoch_seconds": 16.79534616705496,
+      "tune_auc_abnormal": 0.7395786642761093,
+      "tune_auc_acl": 0.6361317254174397,
+      "tune_auc_meniscus": 0.7387057387057386
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.725789608518676,
+      "tune_auc_mean": 0.7019387963711458,
+      "epoch_seconds": 17.528337542084046,
+      "tune_auc_abnormal": 0.7341999103541013,
+      "tune_auc_acl": 0.6289424860853432,
+      "tune_auc_meniscus": 0.7426739926739927
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7349913318706031,
+      "tune_auc_mean": 0.7040068842031447,
+      "epoch_seconds": 16.637561416020617,
+      "tune_auc_abnormal": 0.7512326311071269,
+      "tune_auc_acl": 0.641465677179963,
+      "tune_auc_meniscus": 0.7193223443223443
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7251387645702551,
+      "tune_auc_mean": 0.713863912797767,
+      "epoch_seconds": 17.449381207930855,
+      "tune_auc_abnormal": 0.7469744509188704,
+      "tune_auc_acl": 0.6730055658627088,
+      "tune_auc_meniscus": 0.7216117216117216
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.7235057286696859,
+      "tune_auc_mean": 0.7105473014578477,
+      "epoch_seconds": 17.030580958002247,
+      "tune_auc_abnormal": 0.7512326311071269,
+      "tune_auc_acl": 0.6600185528756958,
+      "tune_auc_meniscus": 0.7203907203907204
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.7235655157577874,
+      "tune_auc_mean": 0.7112384092918127,
+      "epoch_seconds": 17.498915915959515,
+      "tune_auc_abnormal": 0.7512326311071269,
+      "tune_auc_acl": 0.6669758812615956,
+      "tune_auc_meniscus": 0.7155067155067155
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7187851812874917,
+      "tune_auc_mean": 0.6986029872787894,
+      "epoch_seconds": 16.706294458010234,
+      "tune_auc_abnormal": 0.7584043030031377,
+      "tune_auc_acl": 0.62708719851577,
+      "tune_auc_meniscus": 0.7103174603174603
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.7167332843683734,
+      "tune_auc_mean": 0.7078693832071562,
+      "epoch_seconds": 16.804015457979403,
+      "tune_auc_abnormal": 0.7610936799641417,
+      "tune_auc_acl": 0.6451762523191095,
+      "tune_auc_meniscus": 0.7173382173382173
+    }
+  ]
+}

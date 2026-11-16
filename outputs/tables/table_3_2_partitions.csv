@@ -1,0 +1,4 @@
+Partition,Examinations,abnormal,acl,meniscus
+Development training,1010,816 (80.8%),186 (18.4%),355 (35.1%)
+Tuning,120,97 (80.8%),22 (18.3%),42 (35.0%)
+Test (public MRNet validation),120,95 (79.2%),54 (45.0%),52 (43.3%)

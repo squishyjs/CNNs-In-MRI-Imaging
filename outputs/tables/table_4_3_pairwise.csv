@@ -1,0 +1,19 @@
+Task,Contrast,dAUC,p,p (BH-adjusted),Significant (FDR 0.05)
+abnormal,B vs A,+0.193,0.0003,0.0019,True
+abnormal,C vs A,+0.162,0.0093,0.0278,True
+abnormal,C vs B,-0.031,0.1780,0.2670,False
+abnormal,E vs C,+0.015,0.3701,0.4898,False
+abnormal,D vs E,-0.044,0.1216,0.1990,False
+abnormal,D vs C,-0.029,0.3810,0.4898,False
+acl,B vs A,+0.192,0.0000,0.0001,True
+acl,C vs A,+0.196,0.0000,0.0002,True
+acl,C vs B,+0.004,0.8629,0.9137,False
+acl,E vs C,+0.003,0.8410,0.9137,False
+acl,D vs E,-0.112,0.0027,0.0119,True
+acl,D vs C,-0.108,0.0033,0.0119,True
+meniscus,B vs A,+0.106,0.0127,0.0298,True
+meniscus,C vs A,+0.108,0.0343,0.0617,False
+meniscus,C vs B,+0.002,0.9375,0.9375,False
+meniscus,E vs C,-0.009,0.6804,0.8165,False
+meniscus,D vs E,-0.102,0.0226,0.0453,True
+meniscus,D vs C,-0.111,0.0132,0.0298,True

@@ -1,0 +1,6 @@
+Model,Name,Parameters (M),Epoch time (min),Inference (s/exam),Peak memory (GB),Runs
+A,Fully connected baseline,1.08,0.3,0.10,0.0,3
+B,AlexNet slice CNN (pretrained),2.47,1.1,0.12,0.0,3
+C,ResNet-18 slice CNN (pretrained),11.18,3.2,0.16,0.1,3
+D,MONAI 3D DenseNet-121,11.25,3.2,0.05,0.1,1
+E,ResNet-18 + MONAI pipeline,11.18,3.5,0.10,0.1,3

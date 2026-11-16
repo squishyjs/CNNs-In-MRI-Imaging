@@ -1,0 +1,133 @@
+{
+  "run_id": "B_coronal_s0",
+  "model_id": "B",
+  "plane": "coronal",
+  "seed": 0,
+  "hparams": {
+    "lr": 5e-05,
+    "weight_decay": 0.0001,
+    "dropout": 0.0
+  },
+  "tasks": [
+    "abnormal",
+    "acl",
+    "meniscus"
+  ],
+  "n_params": 2470467,
+  "best_epoch": 7,
+  "epochs_run": 12,
+  "best_tuning_auc": 0.8545778737636969,
+  "epoch_seconds_mean": 60.892884534676945,
+  "inference_seconds_per_exam": 0.11807505242468323,
+  "peak_memory_mb": 44.99328,
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 0.7557447370326165,
+      "tune_auc_mean": 0.7251660298180117,
+      "epoch_seconds": 62.04295766598079,
+      "tune_auc_abnormal": 0.7902285970416854,
+      "tune_auc_acl": 0.6938775510204083,
+      "tune_auc_meniscus": 0.6913919413919414
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.6978039462082457,
+      "tune_auc_mean": 0.7614106620317801,
+      "epoch_seconds": 60.567195084062405,
+      "tune_auc_abnormal": 0.8260869565217392,
+      "tune_auc_acl": 0.7472170686456401,
+      "tune_auc_meniscus": 0.7109279609279608
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6504713662042476,
+      "tune_auc_mean": 0.781566253311787,
+      "epoch_seconds": 61.6266532499576,
+      "tune_auc_abnormal": 0.8184670551322277,
+      "tune_auc_acl": 0.7722634508348795,
+      "tune_auc_meniscus": 0.753968253968254
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6157288397450258,
+      "tune_auc_mean": 0.8197120224478232,
+      "epoch_seconds": 60.44075383397285,
+      "tune_auc_abnormal": 0.8422232182877633,
+      "tune_auc_acl": 0.8334879406307978,
+      "tune_auc_meniscus": 0.7834249084249084
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5853879574133027,
+      "tune_auc_mean": 0.8313099072848064,
+      "epoch_seconds": 60.65565608302131,
+      "tune_auc_abnormal": 0.8507395786642761,
+      "tune_auc_acl": 0.8474025974025974,
+      "tune_auc_meniscus": 0.7957875457875457
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5592152893285055,
+      "tune_auc_mean": 0.8416325240219074,
+      "epoch_seconds": 61.224865666008554,
+      "tune_auc_abnormal": 0.8588077095472882,
+      "tune_auc_acl": 0.8835807050092764,
+      "tune_auc_meniscus": 0.7825091575091575
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5258083915135058,
+      "tune_auc_mean": 0.8516947308168413,
+      "epoch_seconds": 61.0894500000868,
+      "tune_auc_abnormal": 0.8664276109367998,
+      "tune_auc_acl": 0.8937847866419295,
+      "tune_auc_meniscus": 0.7948717948717949
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.5012527590506886,
+      "tune_auc_mean": 0.8545778737636969,
+      "epoch_seconds": 60.15892341698054,
+      "tune_auc_abnormal": 0.875392200806813,
+      "tune_auc_acl": 0.8870593692022264,
+      "tune_auc_meniscus": 0.8012820512820513
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.47668644067379506,
+      "tune_auc_mean": 0.8427878497033904,
+      "epoch_seconds": 60.55158016597852,
+      "tune_auc_abnormal": 0.8574630210667863,
+      "tune_auc_acl": 0.8659554730983302,
+      "tune_auc_meniscus": 0.804945054945055
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4642491155110373,
+      "tune_auc_mean": 0.8508643456936983,
+      "epoch_seconds": 60.16268091707025,
+      "tune_auc_abnormal": 0.8704616763783057,
+      "tune_auc_acl": 0.87291280148423,
+      "tune_auc_meniscus": 0.8092185592185592
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.4511494860366577,
+      "tune_auc_mean": 0.8510883710025672,
+      "epoch_seconds": 60.87449208309408,
+      "tune_auc_abnormal": 0.867324069923801,
+      "tune_auc_acl": 0.8724489795918368,
+      "tune_auc_meniscus": 0.8134920634920636
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.42644578836268127,
+      "tune_auc_mean": 0.8525119040102712,
+      "epoch_seconds": 61.31940624990966,
+      "tune_auc_abnormal": 0.8691169878978037,
+      "tune_auc_acl": 0.8752319109461967,
+      "tune_auc_meniscus": 0.8131868131868132
+    }
+  ]
+}

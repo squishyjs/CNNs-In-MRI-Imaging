@@ -1,0 +1,160 @@
+{
+  "run_id": "A_axial_s0",
+  "model_id": "A",
+  "plane": "axial",
+  "seed": 0,
+  "hparams": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.5
+  },
+  "tasks": [
+    "abnormal",
+    "acl",
+    "meniscus"
+  ],
+  "n_params": 1082115,
+  "best_epoch": 10,
+  "epochs_run": 15,
+  "best_tuning_auc": 0.743631686402385,
+  "epoch_seconds_mean": 17.43843733878651,
+  "inference_seconds_per_exam": 0.09740824964925802,
+  "peak_memory_mb": 26.5472,
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 0.7922147465224313,
+      "tune_auc_mean": 0.6356837411377335,
+      "epoch_seconds": 17.17925862490665,
+      "tune_auc_abnormal": 0.6945316001792918,
+      "tune_auc_acl": 0.5765306122448979,
+      "tune_auc_meniscus": 0.635989010989011
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.7650150744041594,
+      "tune_auc_mean": 0.6824153233114622,
+      "epoch_seconds": 19.078343124943785,
+      "tune_auc_abnormal": 0.7140295831465711,
+      "tune_auc_acl": 0.6456400742115027,
+      "tune_auc_meniscus": 0.6875763125763125
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.757211830061261,
+      "tune_auc_mean": 0.7024242930306835,
+      "epoch_seconds": 21.109184417058714,
+      "tune_auc_abnormal": 0.7436127297176154,
+      "tune_auc_acl": 0.6512059369202227,
+      "tune_auc_meniscus": 0.7124542124542125
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7391763014958637,
+      "tune_auc_mean": 0.7129115660923947,
+      "epoch_seconds": 17.759410541970283,
+      "tune_auc_abnormal": 0.7691618108471538,
+      "tune_auc_acl": 0.6421614100185529,
+      "tune_auc_meniscus": 0.7274114774114774
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7379332691726118,
+      "tune_auc_mean": 0.721522966952627,
+      "epoch_seconds": 17.02321099990513,
+      "tune_auc_abnormal": 0.7539220080681309,
+      "tune_auc_acl": 0.6614100185528757,
+      "tune_auc_meniscus": 0.7492368742368742
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.7241755119054625,
+      "tune_auc_mean": 0.7181338022408651,
+      "epoch_seconds": 16.92623916605953,
+      "tune_auc_abnormal": 0.7386822052891081,
+      "tune_auc_acl": 0.6641929499072357,
+      "tune_auc_meniscus": 0.7515262515262515
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7222597673387811,
+      "tune_auc_mean": 0.7316074186071625,
+      "epoch_seconds": 16.871944625047036,
+      "tune_auc_abnormal": 0.7637830569251457,
+      "tune_auc_acl": 0.6746289424860854,
+      "tune_auc_meniscus": 0.7564102564102564
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7269158336638224,
+      "tune_auc_mean": 0.743106460962003,
+      "epoch_seconds": 16.898724457947537,
+      "tune_auc_abnormal": 0.7736441057821605,
+      "tune_auc_acl": 0.6855287569573284,
+      "tune_auc_meniscus": 0.7701465201465201
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.723060210417993,
+      "tune_auc_mean": 0.7393179179053546,
+      "epoch_seconds": 17.004934999975376,
+      "tune_auc_abnormal": 0.7635589421783954,
+      "tune_auc_acl": 0.6808905380333952,
+      "tune_auc_meniscus": 0.7735042735042735
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.7181178729870532,
+      "tune_auc_mean": 0.7392249347890636,
+      "epoch_seconds": 16.898922957945615,
+      "tune_auc_abnormal": 0.7678171223666517,
+      "tune_auc_acl": 0.6841372912801484,
+      "tune_auc_meniscus": 0.7657203907203907
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7135343156238594,
+      "tune_auc_mean": 0.743631686402385,
+      "epoch_seconds": 16.92147370800376,
+      "tune_auc_abnormal": 0.7767817122366653,
+      "tune_auc_acl": 0.6827458256029684,
+      "tune_auc_meniscus": 0.7713675213675214
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.7052125141319662,
+      "tune_auc_mean": 0.7383277721450866,
+      "epoch_seconds": 16.92610829102341,
+      "tune_auc_abnormal": 0.7682653518601524,
+      "tune_auc_acl": 0.6713821892393321,
+      "tune_auc_meniscus": 0.7753357753357754
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.7100904873692163,
+      "tune_auc_mean": 0.7379816863392454,
+      "epoch_seconds": 16.959521209006198,
+      "tune_auc_abnormal": 0.7588525324966382,
+      "tune_auc_acl": 0.6757884972170687,
+      "tune_auc_meniscus": 0.7793040293040294
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.7104429278190774,
+      "tune_auc_mean": 0.7384581941955317,
+      "epoch_seconds": 16.94116808299441,
+      "tune_auc_abnormal": 0.7595248767368893,
+      "tune_auc_acl": 0.6753246753246753,
+      "tune_auc_meniscus": 0.7805250305250305
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.707693381548518,
+      "tune_auc_mean": 0.7389863260709134,
+      "epoch_seconds": 17.078114875010215,
+      "tune_auc_abnormal": 0.7606454504706409,
+      "tune_auc_acl": 0.6757884972170687,
+      "tune_auc_meniscus": 0.7805250305250305
+    }
+  ]
+}
