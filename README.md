@@ -4,9 +4,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.15-ee4c2c)
 ![MONAI](https://img.shields.io/badge/MONAI-1.6-5ec2a7)
 
-Experimental pipeline for the UTS Honours thesis **_Investigating the Efficacy of CNNs in
-Improving Diagnosis and Injury Detection Accuracy for Ligament and Meniscal Damage_**. This
-project README documents the **MRNet v1.0** dataset workflow.
+Experimental pipeline for my UTS Honours thesis **Assessing the Efficacy of Convolutional Neural Networks in Enhancing Performance in Diagnostic Accuracy for Ligament and Meniscal Injuries in Knee MRI Imaging**
 
 > **Author:** John Sciuto (24814764) <br>
 > **Supervisor:** Wei Wei <br>
@@ -27,18 +25,18 @@ project README documents the **MRNet v1.0** dataset workflow.
 
 ## Overview
 
-The pipeline trains and evaluates convolutional neural networks on MRNet knee MRI exams. It
-uses the dataset's training split for model development and tuning, and its public validation
-split for final evaluation. The prediction tasks are abnormality, ACL tear, and meniscal tear
+The pipeline trains and evaluates convolutional neural networks on MRNet knee MRI exams. We
+use the dataset's training split for the model's development and tuning, and its public validation
+split for a final evaluation. The prediction tasks include abnormality, ACL tear, and meniscal tear
 detection.
 
-Training runs save per-exam probabilities to CSV. Evaluation tables and figures can therefore
-be regenerated from `outputs/` without retraining (thesis §3.11).
+Training runs save per-exam probabilities to CSV, so evaluation tables and figures can therefore
+be regenerated from `outputs/` without retraining.
 
 ![Grad-CAM example](docs/assets/readme_gradcam.jpg)
 
 *Example output: Grad-CAM saliency from model C (ResNet-18) for the ACL task on a test exam.
-The right panel boxes the most activated region.*
+The right panel boxes the most activated region!*
 
 ## Models
 
